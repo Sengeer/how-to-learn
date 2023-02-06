@@ -289,25 +289,17 @@
 }
 
 .footer {
-  padding: 60px 0 40px 0;
+  padding: 60px 5% 40px 5%;
   background-color: #1f1f1f;
 }
 
 .footer__columns {
-  margin: 0 auto 0;
-  width: 90%;
   min-height: 250px;
   display: flex;
   justify-content: space-between;
 }
 
-/* Пустой стиль
-.footer__column {
-}
-*/
-
-.footer__column_content_copyright {
-  display: flex;
+.footer__columns.footer__column_content_copyright {
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
@@ -325,10 +317,10 @@
   color: white;
 }
 
-/* Пустой стиль
-.footer__column_content_info {
+.footer__columns.footer__column_content_info {
+  flex-direction: column;
+  justify-content: flex-start;
 }
-*/
 
 .footer__column-heading {
   margin: 0;
@@ -351,10 +343,10 @@
   list-style-type: none;
 }
 
-/* Пустой стиль
-.footer__column_content_social {
+.footer__columns.footer__column_content_social {
+  flex-direction: column;
+  justify-content: flex-start;
 }
-*/
 
 .footer__social-icon {
   margin: 0 10px 0 0;
