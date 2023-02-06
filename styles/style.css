@@ -39,8 +39,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  display: flex;
-  align-items: center;
+  align-self: center;
   max-width: 730px;
   width: 100%;
   z-index: 1;
@@ -90,11 +89,6 @@
   right: 0;
   z-index: -1;
 }
-
-/* Пустой стиль
-.content {
-}
-*/
 
 .description {
   margin: 100px 0 0 0;
@@ -197,7 +191,7 @@
 
 .feynman {
   position: relative;
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   z-index: 1;
 }
@@ -289,17 +283,20 @@
 }
 
 .footer {
-  padding: 60px 5% 40px 5%;
+  padding: 60px 0 40px 0;
   background-color: #1f1f1f;
 }
 
 .footer__columns {
+  margin: 0 auto 0;
+  width: 90%;
   min-height: 250px;
   display: flex;
   justify-content: space-between;
 }
 
-.footer__columns.footer__column_content_copyright {
+.footer__column_content_copyright {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
@@ -315,11 +312,6 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-}
-
-.footer__columns.footer__column_content_info {
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 .footer__column-heading {
@@ -343,11 +335,8 @@
   list-style-type: none;
 }
 
-.footer__columns.footer__column_content_social {
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
 .footer__social-icon {
   margin: 0 10px 0 0;
+  height: 16px;
+  width: 16px;
 }
