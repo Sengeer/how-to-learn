@@ -60,6 +60,8 @@
 
 .link {
   text-decoration: none;
+  transition: filter 0.035s linear 0.035s;
+  transition-timing-function: cubic-bezier(0,.5,1,.5);
 }
 
 .link:hover {
@@ -274,7 +276,7 @@
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
-  background-size: 100%;
+  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
