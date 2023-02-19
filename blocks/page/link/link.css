@@ -1,0 +1,10 @@
+.link {
+  text-decoration: none;
+  filter: opacity(75%);
+  transition: filter 0.3s ease-in-out;
+}
+.link:hover {
+  transition: filter 0.3s ease-in-out;
+  filter: opacity(100%) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.3));
+  /* filter: drop-shadow(4px 4px 10px #2f80ed); */
+}
