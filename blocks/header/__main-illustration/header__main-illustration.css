@@ -2,7 +2,7 @@
   width: 765px;
   height: 608px;
   position: absolute;
-  object-fit: contain;
+  object-fit: cover;
   object-position: right bottom;
   bottom: 0;
   right: 0;
