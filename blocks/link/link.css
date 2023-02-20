@@ -1,0 +1,7 @@
+.link {
+  text-decoration: none;
+  transition: filter 0.3s ease-in-out;
+}
+.link:hover {
+  filter: opacity(65%);
+}
