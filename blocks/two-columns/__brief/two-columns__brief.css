@@ -3,7 +3,8 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   max-width: 175px;
   width: 100%;
   color: #2f80ed;

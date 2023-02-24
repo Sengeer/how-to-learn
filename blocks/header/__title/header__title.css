@@ -3,7 +3,9 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   max-width: 730px;
   width: 100%;
   z-index: 1;
