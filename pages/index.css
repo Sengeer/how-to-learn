@@ -59,6 +59,16 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__comment-field/feedback__comment-field.css);
+@import url(../blocks/feedback/__comment-name/feedback__comment-name.css);
+@import url(../blocks/feedback/__comment/feedback__comment.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__name/form__name.css);
+@import url(../blocks/form/__name-field/form__name-field.css);
+@import url(../blocks/form/__comment/form__comment.css);
+@import url(../blocks/form/__comment-field/form__comment-field.css);
+@import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);

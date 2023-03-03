@@ -1,0 +1,43 @@
+.feedback__comment-field {
+  position: relative;
+  counter-reset: li;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 20px;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.feedback__comment-field li {
+  width: 600px;
+  max-width: 90%;
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0 auto 0;
+  text-decoration: none;
+  border-radius: .3em;
+  -webkit-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+  .feedback__comment-field li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #1f1f1f;
+  color: white;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}

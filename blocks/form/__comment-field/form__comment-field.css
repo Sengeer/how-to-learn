@@ -1,0 +1,9 @@
+.form__comment-field {
+  width: 100%;
+  width: calc(100% - 1.2em);
+  padding: 10px;
+  border: 1px solid #444;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-size: 20px;
+}
