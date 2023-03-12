@@ -14,6 +14,6 @@
 
 ---
 
-<h2 align="center"><a href="https://sengeer.github.io/how-to-learn/" target="_ blank">View project \ Посмотреть проект</a></h2>
+<h2 align="center"><a href="https://sengeer.github.io/how-to-learn/" target="_blank">View project \ Посмотреть проект</a></h2>
 
 ---
