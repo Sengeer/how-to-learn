@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://sengeer.github.io/how-to-learn/" target="_blank">Научиться учиться</a></h1>
+<h1 align="center">Научиться учиться</h1>
 
 [Научиться учиться](https://sengeer.github.io/how-to-learn/) - первая проектная работа, разработана в образовательных целях по программе [Яндекс Практикум](https://practicum.yandex.ru/). Название это цель проекта, научить меня и вас - учиться.
 
