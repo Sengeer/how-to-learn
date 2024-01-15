@@ -19,7 +19,7 @@
 
 ## Технологический стек
 
-**Клиент:** HTML, CSS, native JavaScript
+**Front-end:** HTML, CSS, native JavaScript
 
 
 
